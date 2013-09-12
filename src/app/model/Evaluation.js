@@ -1,0 +1,46 @@
+Ext.define('Adm.model.Evaluation', {
+    extend: 'Adm.model.AbstractBase',
+    fields: [{
+        name: 'studentEvaluationId',
+        type: 'string'
+    }, {
+        name: 'lastName',
+        type: 'string'
+    }, {
+        name: 'firstName',
+        type: 'string'
+    }, {
+        name: 'studentName',
+        type: 'string'
+    }, {
+        name: 'tartanId',
+        type: 'int'
+    }, {
+        name: 'evaluatorId',
+        type: 'int'
+    }, {
+        name: 'evaluatorName',
+        type: 'string'
+    }, {
+        name: 'evaluationDate',
+        type: 'date'
+    }, {
+        name: 'evaluationType',
+        type: 'string'
+    }, {
+        name: 'formId',
+        type: 'string'
+    }, {
+        name: 'formName',
+        type: 'string'
+    }, {
+        name: 'evaluatorRating',
+        type: 'string'
+    }, {
+        name: 'studentRating',
+        type: 'string'
+    }, {
+        name: 'isActive',
+        type: 'boolean'
+    }]
+});

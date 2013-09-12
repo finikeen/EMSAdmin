@@ -1,0 +1,96 @@
+.multiselect-invalid .x-boundlist {
+    border-color: Red !important;
+}
+
+.scc-form {
+	background: #fff url('../images/logoBG_large2.png') no-repeat fixed top center !important;
+}
+.scc-display {
+	background-color: #fff; /* f5f5dc */
+}
+
+.sort-desc {
+	background-image: url('../images/sort_desc.gif') !important;
+	background-position: 4px 7px !important;
+}
+.sort-asc {
+	background-image: url('../images/sort_asc.gif') !important;
+	background-position: 4px 7px !important;
+}
+
+.wrappable-cell {
+	margin-bottom: 4px;
+	word-wrap: break-word !important;
+	white-space: normal;
+}
+
+.wrappable-cell-box {
+	margin-bottom: 1px;
+	word-wrap: break-word !important;
+	white-space: normal;
+	padding: 1.1em;
+}
+.rating-Successful {
+	color: Green;
+}
+.rating-Unsuccessful {
+	color: Red;
+}
+
+/* .x-item-disabled .x-form-item-label,
+.x-item-disabled .x-form-cb-label {
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+opacity: .9;
+} */
+
+.completeIcon {
+	background: url('../images/tick.png') no-repeat !important;
+}
+
+.x-item-disabled .x-form-field{
+opacity: 0.8;
+}
+
+.x-item-disabled .x-form-item-body {    
+background-color:#dddddd;
+}
+
+.x-tip {
+	width: auto !important;
+}
+
+.x-tip-body {
+	width: auto !important;
+}
+
+.x-tip-body span {
+	width: auto !important;
+}
+
+.x-panel-header-default-horizontal {
+	padding: 4px 5px 5px 5px;
+}
+
+/* .x-nlg .x-panel-header-default-top {
+	background: #ac1a2f;
+} */
+
+.x-form-check-wrap label {
+	display: block !important;
+	white-space: normal;
+	text-align: justify;
+	left: 0px !important;
+	top: 0px !important;
+	padding-left: 19px;
+}
+.x-form-checkbox {
+	top: 0px !important;
+	float: left !important;
+}
+.x-form-radio {
+	top: 0px !important;
+	float: left !important;
+}
+.x-print-body {
+	overflow: visible;
+}

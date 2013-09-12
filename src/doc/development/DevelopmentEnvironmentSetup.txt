@@ -1,0 +1,11 @@
+How to set up your development environment:
+
+* Download and install latest Eclipse IDE or similar
+
+* Install ColdFusion Builder Plugin into Eclipse.
+
+* Checkout the project with git.
+		- https://github.com/url_to_the_project
+	- Import project into Eclipse
+
+* Ensure ColdFusion 9.0.1 or higher is installed local or remote to the project.

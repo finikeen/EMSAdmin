@@ -1,0 +1,11 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans default-autowire="byName">  
+
+        <bean id="sinclairObjectFactory" class="emsadmin.edu.sinclair.core.ObjectFactory" />
+        <bean id="sinclairController" class="emsadmin.edu.sinclair.core.Controller" />
+		<bean id="dataTypeUtil" class="emsadmin.edu.sinclair.core.util.DataTypeConvert" />
+		<bean id="configDAO" class="emsadmin.edu.sinclair.core.config.dao.Config_DAO" />
+        <!-- API -->
+        <bean id="AnythingToXML" class="emsadmin.api.1.resources.AnythingToXML.AnythingToXML" />
+        <bean id="JSONUtil" class="emsadmin.api.1.resources.JSONUtil.JSONUtil" />
+</beans>

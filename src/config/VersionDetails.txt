@@ -1,0 +1,4 @@
+CHANGES PER VERSION
+
+VERSION 1.0 - started at commit (1)
+-Initial commit

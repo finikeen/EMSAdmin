@@ -1,0 +1,13 @@
+This document will walk through the general process of creating an environment to run the application in a production environment.
+
+Required:
+ - Database Server         - MS SQL Server 2005 or greater suggested
+ - ColdFusion Application Server - 9.0.1 or above (app is tested on ColdFusion 9.0.1, but should run on other containers)
+
+Configure Application:
+	On Mac:
+
+	On Windows:
+
+Deploy Application:	
+ 
