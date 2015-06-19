@@ -1,0 +1,5 @@
+/.settings
+/src/build
+settings.xml
+.project
+.DS_Store
